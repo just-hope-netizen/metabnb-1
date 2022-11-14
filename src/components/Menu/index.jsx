@@ -11,12 +11,12 @@ export const Menu = ({ cancel, onClick, show, onHide }) => {
       <Row className="h-100">
         <Col className="bg-light ps-4 pt-4">
           <ul className="ps-0">
-            <li>
+            <li className="mb-2">
               <Link to={"/"} className="text-decoration-none text-dark"> Home</Link>
             </li>
-            <li>Place to stay</li>
-            <li>NFTs</li>
-            <li>Community</li>
+            <li className="mb-2">Place to stay</li>
+            <li className="mb-2">NFTs</li>
+            <li className="mb-2">Community</li>
           </ul>
           <Button
             className="header-btn shadow-none "

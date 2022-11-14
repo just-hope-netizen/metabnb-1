@@ -74,7 +74,7 @@ export const Home = () => {
               amazing gift cards which are traded as NFTs. These NFTs gives our
               cutomer access to loads of our exclusive services.
             </p>
-            <Link to={"/place-to-stay"} className="learn-btn">Learn more</Link>
+            <button  className="learn-btn">Learn more</button>
           </Col>
           <Col>
           <img src={banner1} alt="banner1" />

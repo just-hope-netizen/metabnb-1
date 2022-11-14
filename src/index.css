@@ -181,6 +181,7 @@ input[type="text"] ~ button {
   background-color: #fff;
   color: #A02279;
   text-decoration: none;
+  border: none;
 }
 
 /* card */
